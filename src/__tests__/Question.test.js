@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { act } from "react-dom/test-utils";
-import Question from "../components/Question";
+import { Question } from "../components/Question";
 
 const testQuestion = {
   id: 1,
